@@ -1,0 +1,10 @@
+﻿.idea
+gradle
+build.gradle
+gradlew
+gradlew.bat
+mvnw
+mvnw.cmd
+settings.gradle
+.mvn
+target

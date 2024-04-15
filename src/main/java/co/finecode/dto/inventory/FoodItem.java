@@ -5,13 +5,18 @@ import java.util.Date;
 public class FoodItem {
 
     private int id;
+    private String upc;
     private int categoryId;
     private int subCategoryId;
     private int vendorId;
     private String name;
     private float amount;
+    private String measureType;
+    private float amountSecondary;
+    private String measureTypeSecondary;
     private String description;
     private Date createDate;
+    private Date modifiedDate;
 
     public int getId() {
         return id;
@@ -19,6 +24,14 @@ public class FoodItem {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getUpc() {
+        return upc;
+    }
+
+    public void setUpc(String upc) {
+        this.upc = upc;
     }
 
     public int getCategoryId() {
@@ -61,6 +74,30 @@ public class FoodItem {
         this.amount = amount;
     }
 
+    public String getMeasureType() {
+        return measureType;
+    }
+
+    public void setMeasureType(String measureType) {
+        this.measureType = measureType;
+    }
+
+    public float getAmountSecondary() {
+        return amountSecondary;
+    }
+
+    public void setAmountSecondary(float amountSecondary) {
+        this.amountSecondary = amountSecondary;
+    }
+
+    public String getMeasureTypeSecondary() {
+        return measureTypeSecondary;
+    }
+
+    public void setMeasureTypeSecondary(String measureTypeSecondary) {
+        this.measureTypeSecondary = measureTypeSecondary;
+    }
+
     public String getDescription() {
         return description;
     }
@@ -75,5 +112,13 @@ public class FoodItem {
 
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
+    }
+
+    public Date getModifiedDate() {
+        return modifiedDate;
+    }
+
+    public void setModifiedDate(Date modifiedDate) {
+        this.modifiedDate = modifiedDate;
     }
 }

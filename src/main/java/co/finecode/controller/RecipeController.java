@@ -4,8 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.awt.print.Book;
-
 @RestController
 @RequestMapping("api")
 public class RecipeController {
@@ -19,4 +17,7 @@ public class RecipeController {
     ModelAndView recipe() {
         return new ModelAndView("recipe");
     }
+
+//    @PostMapping("/recipe")
+//    public Response saveRecipe
 }

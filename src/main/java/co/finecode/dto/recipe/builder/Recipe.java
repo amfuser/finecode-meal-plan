@@ -1,6 +1,6 @@
-package co.finecode.recipe.builder;
+package co.finecode.dto.recipe.builder;
 
-import co.finecode.recipe.ingredient.Ingredient;
+import co.finecode.dto.recipe.ingredient.Ingredient;
 
 import java.util.List;
 

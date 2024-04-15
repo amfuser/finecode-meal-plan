@@ -1,0 +1,5 @@
+1. Fix dates in the database to be datetime
+2. Ensure database connections are closed
+3. Recreate the database tables to use ISAM
+4. Create the food item insert
+5. Add configuration file with yaml or json

@@ -1,7 +1,7 @@
-package co.finecode.recipe;
+package co.finecode.dto.recipe;
 
-import co.finecode.recipe.builder.Recipe;
-import co.finecode.recipe.ingredient.Ingredient;
+import co.finecode.dto.recipe.builder.Recipe;
+import co.finecode.dto.recipe.ingredient.Ingredient;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package co.finecode.recipe.constant;
+package co.finecode.dto.recipe.constant;
 
 public class IngredientType {
     //Multiple lists of enums
